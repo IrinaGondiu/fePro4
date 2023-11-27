@@ -147,11 +147,6 @@ main {
   font-weight: 400;
 }
 
-@media(max-width: 992px) {
-  .grid__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 .section__about {
   padding: 32px 16px;
@@ -288,4 +283,27 @@ footer{
 }
 .footer a:hover{
   color: green;
+}
+
+@media(max-width: 992px) {
+  .grid__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 600px) {
+  .grid__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media(max-width: 992px) {
+  .grid__biography {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media(max-width: 600px){
+  .grid__biography {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
